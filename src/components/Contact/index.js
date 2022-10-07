@@ -8,7 +8,7 @@ export const Contact = () => {
   return (
     <>
       <div className="container-contact">
-        <h4>Contatos</h4>
+        <h4 id="h4">Contatos</h4>
         <div className="box-contact">
           <a href="https://www.linkedin.com/in/barbaracintra161/" target="_blank" className="link-contact">
             <img src={LinkedIn} />

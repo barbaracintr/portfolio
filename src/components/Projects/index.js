@@ -30,7 +30,7 @@ export const Projects = () => {
   return (
     <>
       <div className="container-projects">
-        <h2>Meus Projetos</h2>
+        <h2 id="h2">Meus Projetos</h2>
         <ol>
           {projects.map((project, index) => (
             <li key={index}>

@@ -7,6 +7,7 @@ import ReactJS from "../../assets/img/react.svg";
 import JS from "../../assets/img/js.svg";
 import HTML5 from "../../assets/img/html5.svg";
 import TS from "../../assets/img/typescript.png";
+import { Footer } from "../Footer";
 
 
 export const Techs = () => {
@@ -44,6 +45,7 @@ export const Techs = () => {
             );
           })}
         </ul>
+        <Footer />
     </>
   );
 };

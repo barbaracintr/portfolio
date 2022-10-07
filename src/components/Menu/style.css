@@ -1,9 +1,8 @@
 .container-menu {
     display: flex;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Nunito', sans-serif;
     font-family: 'Poppins', sans-serif;
+    position: fixed;
+    right: 90px;
 }
 .container-menu summary {
     list-style-type: '';

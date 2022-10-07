@@ -1,9 +1,11 @@
 import photo from "../../assets/img/photoo.png";
+import { Header } from "../Header";
 import "./style.css";
 
 export const Dashboard = () => {
   return (
     <>
+    <Header />
       <div className="container-dashboard">
         <div className="box-resume">
           <span>Bárbara Cintra</span>
@@ -16,7 +18,7 @@ export const Dashboard = () => {
             cosumo de APIs, GIT/GitHub.
           </p>
           <div className="box-link">
-            <a href="#" className="link">
+            <a href="#h2" className="link">
               Projetos
             </a>
             <a href="https://github.com/barbaracintr" target="_blank" className="link">

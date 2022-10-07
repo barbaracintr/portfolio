@@ -12,10 +12,10 @@ export const Menu = () => {
           <a href="#" target="_self">Sobre mim</a>
         </li>
         <li>
-          <a href="#">Projetos</a>
+          <a href="#h2">Projetos</a>
         </li>
         <li>
-          <a href="#">Contato</a>
+          <a href="#h4">Contato</a>
         </li>
       </ul>
     </details>

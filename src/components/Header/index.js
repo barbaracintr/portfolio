@@ -1,6 +1,6 @@
 import "./style.css";
 import { Menu } from "../Menu";
-import logo from "../../assets/img/logo.png"
+import logo from "../../assets/img/code-solid.svg"
 
 export const Header = () => {
   return (

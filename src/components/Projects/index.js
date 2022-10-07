@@ -21,9 +21,10 @@ export const Projects = () => {
       gh: "https://github.com/barbaracintr/todolist-project"
     },
     {
-      title: "Kenzie Blog",
+      title: "Kenzie Shop",
       img: "https://img.freepik.com/fotos-gratis/vista-traseira-do-programador-trabalhando-a-noite-toda_1098-18697.jpg?w=900&t=st=1665101829~exp=1665102429~hmac=47f19069ca1e872bb57ead399567d4da081abd3fe1348836bcb553b3705d9438",
-      link: ""
+      link: "https://react-entrega-s3-kenzishop-com-context-api-barbaracintr.vercel.app",
+      gh: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s3-kenzishop-com-context-api-barbaracintr"
     },
   ]);
 

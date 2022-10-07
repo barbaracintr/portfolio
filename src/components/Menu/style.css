@@ -1,0 +1,30 @@
+.container-menu {
+    display: flex;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.container-menu summary {
+    list-style-type: '';
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .2rem;
+}
+.container-menu li {
+    list-style: none;
+}
+.container-menu a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+}
+.container-menu a:hover {
+    color: rgb(211, 0, 95);
+}
+.menu-icon {
+}

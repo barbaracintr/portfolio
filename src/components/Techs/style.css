@@ -1,0 +1,21 @@
+.container-techs {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: .1rem;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 100px;
+    width: 50%;
+}
+.container-techs h3 {
+    font-size: 40px;
+}
+.container-techs li {
+    list-style: none;
+}

@@ -1,0 +1,21 @@
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.box-contact {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.link-contact img {
+    width: 2rem;
+}
+.link-contact img:hover {
+    width: 2.1rem;
+    transition: all 0.5s;
+}

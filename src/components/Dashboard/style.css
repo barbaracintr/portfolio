@@ -1,0 +1,52 @@
+.container-dashboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+.box-resume {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.box-resume span {
+    letter-spacing: .3rem;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.box-resume p {
+    color: rgb(169, 169, 169);
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+.box-resume h1 {
+    font-size: 60px;
+}
+.box-img {
+    filter: grayscale(100%);
+    width: 500px;
+    height: 500px;
+    border-radius: 100% 200% 100% 100%;
+    box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.49);
+}
+.box-link {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.link {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(211, 0, 95);
+}
+.link:hover {
+    color: #000;
+    font-weight: bold;
+    transform: rotate(0.5turn);
+}

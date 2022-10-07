@@ -19,10 +19,10 @@ export const Dashboard = () => {
             <a href="#" className="link">
               Projetos
             </a>
-            <a href="#" className="link">
+            <a href="https://github.com/barbaracintr" target="_blank" className="link">
               GitHub
             </a>
-            <a href="#" className="link">
+            <a href="https://drive.google.com/file/d/1Nknj0mRRC2yAT33jljmcsS3blJ3P6EtE/view?usp=sharing" target="_blank" className="link">
               Currículo
             </a>
           </div>

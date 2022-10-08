@@ -1,10 +1,16 @@
-.container-menu {
+import styled from "styled-components";
+
+export const ContainerMenu = styled.details`
     display: flex;
     font-family: 'Poppins', sans-serif;
     position: fixed;
     right: 90px;
-}
-.container-menu summary {
+    
+    @media only screen and (max-width: 600px) {
+        position: static;
+    }
+`
+export const Summary = styled.summary`
     list-style-type: '';
     cursor: pointer;
     font-size: 15px;
@@ -13,17 +19,17 @@
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: .2rem;
-}
-.container-menu li {
+`
+export const Item = styled.li`
     list-style: none;
-}
-.container-menu a {
+    text-align: center;
+`
+export const Link = styled.a`
     font-size: 14px;
     text-decoration: none;
     color: #000000;
-}
-.container-menu a:hover {
-    color: rgb(211, 0, 95);
-}
-.menu-icon {
-}
+    
+    :hover{
+        color: rgb(211, 0, 95);
+    }
+`

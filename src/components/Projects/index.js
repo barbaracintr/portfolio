@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Project } from "../Project";
 
-import "./style.css";
-
 import Ecommerce from "../../assets/img/ecommerce.png"
 import ToDoList from "../../assets/img/todolist.png"
+
+import { ContainerProjects, Title, List, Li } from "./styles.js"
 
 export const Projects = () => {
   const [ projects, setProjects ] = useState([
@@ -30,16 +30,16 @@ export const Projects = () => {
 
   return (
     <>
-      <div className="container-projects">
-        <h2 id="h2">Meus Projetos</h2>
-        <ol>
+      <ContainerProjects>
+        <Title id="h2">Meus Projetos</Title>
+        <List>
           {projects.map((project, index) => (
-            <li key={index}>
+            <Li key={index}>
               <Project project={project} />
-            </li>
+            </Li>
           ))}
-        </ol>
-      </div>
+        </List>
+      </ContainerProjects>
     </>
   );
 };

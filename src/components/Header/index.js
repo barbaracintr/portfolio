@@ -1,20 +1,22 @@
-import "./style.css";
+import { HeaderContainer, Box, Logo, BoxTitle, Name, Sub } from "./styles.js";
+
 import { Menu } from "../Menu";
+
 import logo from "../../assets/img/code-solid.svg"
 
 export const Header = () => {
   return (
     <>
-      <div className="container-header">
-        <div className="box">
-          <img src={logo} alt="Logo" />
-          <div className="box-title">
-            <span className="name">Bárbara Cintra</span>
-            <span className="sub">Dev Web Front End</span>
-          </div>
-        </div>
+      <HeaderContainer>
+        <Box>
+          <Logo src={logo} alt="Logo" />
+          <BoxTitle>
+            <Name>Bárbara Cintra</Name>
+            <Sub>Dev Web Front End</Sub>
+          </BoxTitle>
+        </Box>
         <Menu />
-      </div>
+      </HeaderContainer>
     </>
   );
 };

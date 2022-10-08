@@ -1,14 +1,14 @@
 import { Contact } from "../Contact";
 
-import "./style.css";
+import { ContainerFooter, Copy } from "./styles.js";
 
 export const Footer = () => {
   return (
     <>
-      <footer className="container-footer">
+      <ContainerFooter>
         <Contact />
-        <p className="copy">&copy; Copyright - All rights reserved</p>
-      </footer>
+        <Copy>&copy; Copyright - All rights reserved</Copy>
+      </ContainerFooter>
     </>
   );
 };

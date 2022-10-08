@@ -1,36 +1,38 @@
-import photo from "../../assets/img/photoo.png";
+import photo from "../../assets/img/photo.png";
+
 import { Header } from "../Header";
-import "./style.css";
+
+import { ContainerDashboard, BoxResume, Name, Title, Description, BoxLinks, Link, Photo } from "./styles.js";
 
 export const Dashboard = () => {
   return (
     <>
     <Header />
-      <div className="container-dashboard">
-        <div className="box-resume">
-          <span>Bárbara Cintra</span>
-          <h1>Desenvolvedora Web Front End</h1>
-          <p>
+      <ContainerDashboard>
+        <BoxResume>
+          <Name>Bárbara Cintra</Name>
+          <Title>Desenvolvedora Web Front End</Title>
+          <Description>
             Programadora web front-end em transição de carreira. Participei de
             dailys, desenvolvi projetos individuais e em grupos com o uso das
             tecnologias ReactJS, JavaScript, HTML5, CCS3, TypeScript, libs como
             Material UI, styled-components, Redux, ContextAPI, React Router 6,
             cosumo de APIs, GIT/GitHub.
-          </p>
-          <div className="box-link">
-            <a href="#h2" className="link">
+          </Description>
+          <BoxLinks>
+            <Link href="#h2" className="link">
               Projetos
-            </a>
-            <a href="https://github.com/barbaracintr" target="_blank" className="link">
+            </Link>
+            <Link href="https://github.com/barbaracintr" target="_blank" className="link">
               GitHub
-            </a>
-            <a href="https://drive.google.com/file/d/1Nknj0mRRC2yAT33jljmcsS3blJ3P6EtE/view?usp=sharing" target="_blank" className="link">
+            </Link>
+            <Link href="https://drive.google.com/file/d/1Nknj0mRRC2yAT33jljmcsS3blJ3P6EtE/view?usp=sharing" target="_blank" className="link">
               Currículo
-            </a>
-          </div>
-        </div>
-        <img className="box-img" src={photo} alt="Foto" />
-      </div>
+            </Link>
+          </BoxLinks>
+        </BoxResume>
+        <Photo className="box-img" src={photo} alt="Foto" />
+      </ContainerDashboard>
     </>
   );
 };

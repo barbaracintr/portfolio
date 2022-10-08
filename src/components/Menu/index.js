@@ -1,23 +1,24 @@
-import "./style.css";
 import MenuIcon from "../../assets/img/menu-icon.svg";
+
+import { ContainerMenu, Summary, Item, Link } from "./styles.js";
 
 export const Menu = () => {
   return (
-    <details className="container-menu">
-      <summary>
+    <ContainerMenu>
+      <Summary>
         Menu <img src={MenuIcon} alt="Ícone de Menu" className="menu-icon" />
-      </summary>
+      </Summary>
       <ul>
-        <li>
-          <a href="#" target="_self">Sobre mim</a>
-        </li>
-        <li>
-          <a href="#h2">Projetos</a>
-        </li>
-        <li>
-          <a href="#h4">Contato</a>
-        </li>
+        <Item>
+          <Link href="#" target="_self">Sobre mim</Link>
+        </Item>
+        <Item>
+          <Link href="#h2">Projetos</Link>
+        </Item>
+        <Item>
+          <Link href="#h4">Contato</Link>
+        </Item>
       </ul>
-    </details>
+    </ContainerMenu>
   );
 };

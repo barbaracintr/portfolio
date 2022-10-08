@@ -1,12 +1,13 @@
 import { Tech } from "../Tech";
 
-import "./style.css";
-
 import CSS3 from "../../assets/img/css3.svg";
 import ReactJS from "../../assets/img/react.svg";
 import JS from "../../assets/img/js.svg";
 import HTML5 from "../../assets/img/html5.svg";
 import TS from "../../assets/img/typescript.png";
+
+import { ContainerTechs, ItemList } from "./styles.js"
+
 import { Footer } from "../Footer";
 
 
@@ -36,15 +37,15 @@ export const Techs = () => {
 
   return (
     <>
-        <ul className="container-techs">
+        <ContainerTechs>
           {techsList.map((tech, index) => {
             return (
-              <li key={index}>
+              <ItemList key={index}>
                 <Tech tech={tech} />
-              </li>
+              </ItemList>
             );
           })}
-        </ul>
+        </ContainerTechs>
         <Footer />
     </>
   );

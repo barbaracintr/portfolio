@@ -1,32 +1,37 @@
-.item-list {
+import styled from "styled-components";
+
+export const ItemList = styled.div`
   display: flex;
   flex-direction: column;
-}
-.item-list-title {
+`;
+export const Title = styled.span`
   font-weight: bold;
-}
-.item-list-img{
+`;
+export const Img = styled.img`
   border: 1px solid rgb(214, 214, 214);
-}
-.item-list img {
   width: 80%;
   height: 80%;
   border-radius: 10px;
   filter: grayscale(1);
-}
-.item-list img:hover {
-  filter: grayscale(0);
-}
-.item-list-links {
+
+  :hover {
+    filter: grayscale(0);
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+    height: 100%;
+  }
+`;
+export const ImgGh = styled.img`
+  width: 20px;
+`;
+export const Links = styled.div`
   display: flex;
   justify-content: flex-start;
   gap: 0.9em;
-}
-.item-list-links img {
-    width: 20px;
-}
-.item-list-gh,
-.item-list-app {
+`
+export const Link = styled.a`
   font-size: 14px;
   text-decoration: none;
   color: rgb(211, 0, 95);
@@ -34,9 +39,9 @@
   /* transform: translate(100px, 50%); */
   display: flex;
   align-items: center;
-}
-.item-list-gh:hover,
-.item-list-app:hover {
+
+  :hover {
     color: #000;
     font-weight: 600;
-}
+  }
+`

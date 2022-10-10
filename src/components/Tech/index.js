@@ -1,10 +1,12 @@
-import { NameTech, ImgTech } from "./styles.js"
+import { BoxTech, NameTech, ImgTech } from "./styles.js";
 
 export const Tech = ({ tech }) => {
-    return (
-        <>
-            <NameTech>{tech.name}</NameTech>
-            <ImgTech src={tech.img} />
-        </>
-    )
-}
+  return (
+    <>
+      <BoxTech>
+        <ImgTech src={tech.img} />
+        <NameTech>{tech.name}</NameTech>
+      </BoxTech>
+    </>
+  );
+};

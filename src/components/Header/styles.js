@@ -6,7 +6,7 @@ export const HeaderContainer = styled.header`
   align-items: center;
   padding: 40px;
   font-family: "Poppins", sans-serif;
-  
+
   @media only screen and (max-width: 600px) {
     flex-direction: column;
   }
@@ -27,10 +27,16 @@ export const BoxTitle = styled.div`
 export const Name = styled.span`
   font-size: 19px;
   font-weight: bold;
+
+  @media screen and (min-width: 700px) and (max-width: 1240px) {
+    font-size: 30px;
+  }
 `;
 export const Sub = styled.span`
   font-size: 12px;
   letter-spacing: 0.1rem;
+
+  @media screen and (min-width: 700px) and (max-width: 1240px) {
+    font-size: 20px;
+  }
 `;
-
-

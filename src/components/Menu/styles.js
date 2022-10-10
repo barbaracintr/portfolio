@@ -19,6 +19,10 @@ export const Summary = styled.summary`
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: .2rem;
+
+    @media screen and (min-width: 700px) and (max-width: 1240px) {
+        font-size: 20px;
+    }
 `
 export const Item = styled.li`
     list-style: none;
@@ -31,5 +35,9 @@ export const Link = styled.a`
     
     :hover{
         color: rgb(211, 0, 95);
+    }
+
+    @media screen and (min-width: 700px) and (max-width: 1240px) {
+        font-size: 20px;
     }
 `

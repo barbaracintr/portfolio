@@ -13,4 +13,8 @@ export const Copy = styled.p`
   align-items: flex-end;
   margin-right: 10px;
   margin-bottom: 10px;
+
+  @media screen and (min-width: 700px) and (max-width: 1240px) {
+    font-size: 15px;
+  }
 `;

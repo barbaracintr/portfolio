@@ -10,6 +10,10 @@ export const ContainerDashboard = styled.div`
     @media only screen and (max-width: 600px) {
         flex-direction: column;
     }
+
+    @media screen and (min-width: 700px) and (max-width: 1240px){
+        flex-direction: column;
+    }
 `
 export const BoxResume = styled.div`
     width: 40%;
@@ -20,6 +24,11 @@ export const BoxResume = styled.div`
 
     @media only screen and (max-width: 600px) {
         width: 90%;
+    }
+
+    @media screen and (min-width: 700px) and (max-width: 1240px) {
+        width: 90%;
+        text-align: center;
     }
 `
 export const Name = styled.span`
@@ -44,6 +53,11 @@ export const Description = styled.p`
         font-size: 12px;
         text-align: center;
     }
+
+    @media screen and (min-width: 700px) and (max-width: 1240px) {
+        text-align: center;
+        font-size: 22px;
+    }
 `
 export const Title = styled.h1`
     font-size: 60px;
@@ -65,6 +79,13 @@ export const BoxLinks = styled.div`
         flex-direction: column;
         margin-bottom: 20px;
     }
+
+    @media screen and (min-width: 700px) and (max-width: 1240px) {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
 `
 export const Link = styled.a`
     font-size: 14px;
@@ -76,6 +97,10 @@ export const Link = styled.a`
         font-weight: bold;
         transform: rotate(0.5turn);
     }
+
+    @media screen and (min-width: 700px) and (max-width: 1240px) {
+        font-size: 30px;
+    }
 `
 export const Photo = styled.img`
     filter: grayscale(100%);
@@ -84,9 +109,17 @@ export const Photo = styled.img`
     border-radius: 100% 200% 100% 100%;
     box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.49);
 
+    :hover {
+        filter: grayscale(0);
+    }
+
     @media only screen and (max-width: 600px) {
-        border-radius: 100%;
-        width: 300px;
-        height: 300px;
+        width: 280px;
+        height: 280px;
+    }
+
+    @media screen and (min-width: 700px) and (max-width: 1240px) {
+        width: 700px;
+        height: 700px;
     }
 `

@@ -25,6 +25,7 @@ export const ContainerProjects = styled.div`
 `;
 export const Title = styled.h2`
   font-size: 40px;
+  margin-bottom: 1rem;
 
   @media only screen and (max-width: 600px) {
     font-size: 30px;

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Project } from "../Project";
-
-import Ecommerce from "../../assets/img/ecommerce.png"
-import ToDoList from "../../assets/img/todolist.png"
+import wjproject from "../../assets/img/wj.png"
+import shoppingproject from "../../assets/img/s.png"
+import ksproject from "../../assets/img/ks.png"
 
 import { ContainerProjects, Title, List, Li } from "./styles.js"
 
@@ -10,19 +10,19 @@ export const Projects = () => {
   const [ projects, setProjects ] = useState([
     {
       title: "E-commerce",
-      img: "https://img.freepik.com/fotos-gratis/vista-traseira-do-programador-trabalhando-a-noite-toda_1098-18697.jpg?w=900&t=st=1665101829~exp=1665102429~hmac=47f19069ca1e872bb57ead399567d4da081abd3fe1348836bcb553b3705d9438",
+      img: shoppingproject,
       link: "https://ecommerce-barbaracintr.vercel.app/",
       gh: "https://github.com/barbaracintr/ecommerce-barbaracintr"
     },
     {
-      title: "To do list",
-      img: "https://img.freepik.com/fotos-gratis/vista-traseira-do-programador-trabalhando-a-noite-toda_1098-18697.jpg?w=900&t=st=1665101829~exp=1665102429~hmac=47f19069ca1e872bb57ead399567d4da081abd3fe1348836bcb553b3705d9438",
-      link: "https://todolist-project-liart.vercel.app",
-      gh: "https://github.com/barbaracintr/todolist-project"
+      title: "Watermelon Juice",
+      img: wjproject,
+      link: "https://ubistart-barbaracintr.vercel.app/",
+      gh: "https://github.com/barbaracintr/watermelonjuice"
     },
     {
       title: "Kenzie Shop",
-      img: "https://img.freepik.com/fotos-gratis/vista-traseira-do-programador-trabalhando-a-noite-toda_1098-18697.jpg?w=900&t=st=1665101829~exp=1665102429~hmac=47f19069ca1e872bb57ead399567d4da081abd3fe1348836bcb553b3705d9438",
+      img: ksproject,
       link: "https://react-entrega-s3-kenzishop-com-context-api-barbaracintr.vercel.app",
       gh: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s3-kenzishop-com-context-api-barbaracintr"
     },

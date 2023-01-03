@@ -48,7 +48,7 @@ export const Description = styled.p`
   letter-spacing: 0.1rem;
   text-align: justify;
   line-height: 1.3;
-
+  font-size: 13px;
   @media only screen and (max-width: 600px) {
     font-size: 12px;
     text-align: center;

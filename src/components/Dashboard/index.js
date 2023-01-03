@@ -7,17 +7,22 @@ import { ContainerDashboard, BoxResume, Name, Title, Description, BoxLinks, Link
 export const Dashboard = () => {
   return (
     <>
-    <Header />
+      <Header />
       <ContainerDashboard>
         <BoxResume>
           <Name>Bárbara Cintra</Name>
           <Title>Desenvolvedora Web Front End</Title>
           <Description>
-            Programadora web front-end em transição de carreira. Participei de
-            dailys, desenvolvi projetos individuais e em grupos com o uso das
-            tecnologias ReactJS, JavaScript, HTML5, CCS3, TypeScript, libs como
-            Material UI, styled-components, Redux, ContextAPI, React Router 6,
-            cosumo de APIs, GIT/GitHub.
+            Desenvolvedora Web Front End em início de carreira.
+            Formada em Psicologia pela Universidade Federal do Amazonas (UFAM), no ano de 2018.
+            Gosto de estudar sobre as questões cognitivas e comportamentais, além de ser entusiasta
+            da programação desde a escola quando me formei Técnica em Mecatrônica.
+          </Description>
+          <Description>
+            Atualmente sou Programadora Front End em uma startup que tem foco no desenvolvimento
+            de softwares especializados para empresas do Polo Industrial de Manaus (PIM).
+            Juntamente com uma equipe de programadores, realizo manutenções nos projetos com
+            React.js e utilizo linhas de comando Linux/Ubuntu com a organização das sprints feitas através do Trello.
           </Description>
           <BoxLinks>
             <Link href="#h2" className="link">
@@ -26,7 +31,7 @@ export const Dashboard = () => {
             <Link href="https://github.com/barbaracintr" target="_blank" className="link">
               GitHub
             </Link>
-            <Link href="https://drive.google.com/file/d/1Nknj0mRRC2yAT33jljmcsS3blJ3P6EtE/view?usp=sharing" target="_blank" className="link">
+            <Link href="https://drive.google.com/file/d/197PZTx1pubzrtw-97nflFaG596ruW7lm/view?usp=sharing" target="_blank" className="link">
               Currículo
             </Link>
           </BoxLinks>

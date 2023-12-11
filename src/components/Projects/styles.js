@@ -36,21 +36,22 @@ export const Title = styled.h2`
   }
 `;
 export const List = styled.ol`
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
+  // list-style: none;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  width: 50%;
 
-  @media only screen and (max-width: 600px) {
-    flex-direction: column;
-  }
+  // @media only screen and (max-width: 600px) {
+  //   flex-direction: column;
+  // }
 
-  @media screen and (min-width: 700px) and (max-width: 1240px) {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
+  // @media screen and (min-width: 700px) and (max-width: 1240px) {
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  //   gap: 20px;
+  // }
 `;
 export const Li = styled.li`
     @media only screen and (max-width: 600px) {

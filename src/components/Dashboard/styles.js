@@ -90,12 +90,11 @@ export const BoxLinks = styled.div`
 export const Link = styled.a`
   font-size: 14px;
   text-decoration: none;
-  color: rgb(211, 0, 95);
+  color: #001242;
+  font-weight: bold;
 
   :hover {
     color: #000;
-    font-weight: bold;
-    transform: rotate(0.5turn);
   }
 
   @media only screen and (max-width: 600px) {
@@ -113,8 +112,10 @@ export const Link = styled.a`
 `;
 export const Photo = styled.img`
   filter: grayscale(100%);
-  width: 500px;
-  height: 500px;
+  max-width: 50vw;
+  max-height: 60vh;
+  width: auto;
+  height: auto;
   border-radius: 100% 200% 100% 100%;
   box-shadow: 5px 5px 23px 5px rgba(0, 0, 0, 0.49);
 

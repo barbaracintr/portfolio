@@ -3,19 +3,18 @@ import styled from "styled-components";
 export const ItemList = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 5px;
-
-  @media screen and (min-width: 700px) and (max-width: 1240px) {
-    justify-content: center;
-    align-items: center;
-  }
 `;
 export const Title = styled.span`
   font-weight: bold;
+  font-size: 30px;
+  color: #001242;
 
-  @media screen and (min-width: 700px) and (max-width: 1240px) {
-    font-size: 30px;
-  }
+  // @media screen and (min-width: 700px) and (max-width: 1240px) {
+  //   font-size: 30px;
+  // }
 `;
 export const Img = styled.img`
   border: 1px solid rgb(214, 214, 214);
@@ -45,15 +44,15 @@ export const Links = styled.div`
 export const Link = styled.a`
   font-size: 14px;
   text-decoration: none;
-  color: rgb(211, 0, 95);
+  color: #001242;
   cursor: pointer;
   /* transform: translate(100px, 50%); */
   display: flex;
   align-items: center;
+  font-weight: bold;
 
   :hover {
     color: #000;
-    font-weight: 600;
   }
 
   @media only screen and (max-width: 600px) {

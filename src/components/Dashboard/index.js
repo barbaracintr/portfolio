@@ -29,11 +29,11 @@ export const Dashboard = () => {
             escola quando me formei Técnica em Mecatrônica.
           </Description>
           <Description>
-            Em meu último cargo trabalhei como Programadora Front End em uma
+            Em meu último cargo trabalhei como Programadora Front End Jr em uma
             startup que tem foco no desenvolvimento de softwares especializados
             para empresas do Polo Industrial de Manaus (PIM). Juntamente com uma
-            equipe de programadores, realizo manutenções nos projetos com
-            React.js e utilizo linhas de comando Linux/Ubuntu com a organização
+            equipe de programadores, realizava manutenções nos projetos com
+            ReactJS e utilizava linhas de comando Linux/Ubuntu com a organização
             das sprints feitas através do Trello.
           </Description>
           <BoxLinks>
